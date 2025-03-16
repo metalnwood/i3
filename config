@@ -167,6 +167,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 bindsym $mod+$alt+v exec ~/.config/i3/run_vlc_latest_stream.sh
 bindsym $mod+Shift+s exec ~/.config/i3/ScreenShot.sh --swappy
+bindsym $mod+Q exec firefox -private-window
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
